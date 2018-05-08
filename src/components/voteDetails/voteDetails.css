@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+
+.vote-detail .row.vote-count,
+.vote-detail .sticky {
+  height: 55px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 3;
+}
+
+.vote-detail .container.voteDetails {
+  margin-top: 120px;
+  margin-bottom: 50px;
+  border: 1px solid #003468;
+  padding: 0 5% 3%;
+}
+
+.vote-detail .voteDetails h3 {
+  margin-top: -2%;
+  margin-bottom: 4%;
+  color: #003468;
+  font-weight: 500;
+  font-size: 30px;
+  background-color: #f8f8f8;
+}
+
+.vote-detail .voteDetails ul:not(.browser-default) > li {
+  list-style-type: disc;
+  margin-left: 4%;
+  margin-top: 1%;
+}
+
+.vote-detail .row.alternatives {
+  border: 1px solid #003468;
+  border-radius: 5px;
+  padding: 1% 3%;
+}
+
+.vote-detail .voteDetails [type="radio"]:not(:checked) + label:before,
+.vote-detail .voteDetails [type="radio"]:not(:checked) + label:after {
+  border: 1px solid #003468;
+}
+
+.vote-detail .voteDetails [type="radio"] + label:before,
+.vote-detail .voteDetails [type="radio"] + label:after,
+.vote-detail .voteDetails [type="radio"] + label:before,
+.vote-detail .voteDetails [type="radio"] + label:after {
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.vote-detail .voteDetails [type="radio"]:not(:checked) + label,
+.vote-detail .voteDetails [type="radio"]:checked + label {
+  line-height: 25px;
+  color: #313131;
+}
+
+.vote-detail .row.alt-section {
+  border: 1px solid #d2d2d2;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.vote-detail .col.s12.alternatives,
+.vote-detail .col.s12.attachment {
+  background-color: #eee;
+  padding: 2% 3%;
+  border-radius: 5px;
+}
+
+.vote-detail .voteDetails .attachment p,
+.vote-detail .voteDetails .alternatives p {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #003468;
+  margin-top: 0;
+}
+
+.vote-detail .voteDetails .alternatives .alt-section p {
+  text-transform: inherit;
+}
+
+.vote-detail p.alt-attachments {
+  font-size: 12px;
+  text-transform: initial !important;
+  margin-left: 6%;
+  padding-top: 10px;
+}
+
+.vote-detail span {
+  margin: 1%;
+}
+
+.vote-detail .url-links p,
+.vote-detail .file-links p {
+  font-size: 12px;
+  font-weight: 300 !important;
+}
+
+.vote-detail .url-links p i.material-icons,
+.vote-detail .file-links p i.material-icons {
+  font-size: 15px;
+  position: relative;
+  top: 3px;
+}
+
+.vote-detail .file-links {
+  margin-top: 15px;
+}
+
+.vote-detail .file-links button.btn {
+  margin-bottom: 10px;
+  padding: 0 10px;
+  margin-right: 10px;
+  background-color: #00347c;
+}
+
+.vote-detail .file-links button.btn i.material-icons {
+  color: #fff;
+}

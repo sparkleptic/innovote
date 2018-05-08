@@ -1,0 +1,259 @@
+@media only screen and (min-width: 320px) {
+  ul.right.hide-on-med-and-down {
+    display: none;
+  }
+
+  nav,
+  nav .nav-wrapper i,
+  nav a.button-collapse,
+  nav a.button-collapse i {
+    height: 0 !important;
+    line-height: 2 !important;
+    margin-top: 1px;
+  }
+
+  .row.vote-count,
+  .sticky {
+    height: 55px;
+  }
+
+  .right .col.choices p.title {
+    display: none;
+  }
+
+  .row .col.lot-area {
+    margin-right: 10px;
+  }
+
+  span.attendance-status i.material-icons,
+  .btn.edit {
+    left: 64px;
+  }
+
+  .col.attendance-col {
+    margin-left: -8%;
+  }
+
+  .attendance-col .dropdown-content {
+    left: 50% !important;
+  }
+
+  div.result {
+    display: none;
+  }
+
+  /* page2 */
+  .page2 .col.choices {
+    min-width: 50%;
+  }
+
+  .backPage.navigation {
+    left: 87% !important;
+  }
+
+  /* on mobile */
+
+  .row.voteList.on-mobile-screen {
+    padding: 0 10px;
+  }
+
+  .on-mobile-screen .choices {
+    text-align: center;
+    margin: 10px 5% 0;
+  }
+
+  .on-mobile-screen button.btn.alternative-dropdown.dropdown-button {
+    margin-top: 0px;
+  }
+
+  .row .col.lot-area {
+    margin-right: 25px;
+  }
+
+  span.attendance-status i.material-icons,
+  .btn.edit {
+    left: 45px;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  .col.attendance-col {
+    margin-left: 2%;
+  }
+
+  span.attendance-status i.material-icons,
+  .btn.edit {
+    left: 45px;
+  }
+
+  /*  on mobile  */
+  .on-mobile-screen .choices {
+    margin: 10px 3% 0 !important;
+  }
+
+  .on-mobile-screen .attendance-col .dropdown-content {
+    left: 65% !important;
+  }
+}
+
+@media only screen and (min-width: 630px) {
+  .on-mobile-screen .choices {
+    margin: 10px 2.5% 0 !important;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .col.attendance-col {
+    margin-left: 11%;
+  }
+
+  span.attendance-status i.material-icons,
+  .btn.edit {
+    left: 47px;
+  }
+
+  /* page 2 */
+  .page2 .col.choices {
+    min-width: 25%;
+  }
+
+  .backPage.navigation {
+    left: 93% !important;
+  }
+
+  /* on mobile */
+  .on-mobile-screen .choices {
+    margin: 10px 1.8% 0 !important;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  nav a.button-collapse {
+    display: initial !important;
+  }
+
+  .voteList .row .col.l2 {
+    width: 60% !important;
+    padding-right: 0;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+  }
+
+  .col.attendance-col {
+    margin-left: 0%;
+  }
+
+  span.on-mobile {
+    position: relative;
+    top: 11px;
+  }
+
+  .voteList .list {
+    padding-bottom: 3%;
+  }
+
+  div.result {
+    display: inherit;
+  }
+
+  /* page 2 */
+  .page2 .row .col.l10 {
+    width: 80.333333%;
+  }
+
+  .backPage.navigation {
+    left: 17% !important;
+  }
+
+  .attendance-col .dropdown-content {
+    left: 80% !important;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .on-wide-screen {
+    display: none !important;
+  }
+
+  .on-mobile-screen .right .choices > span .btn {
+    display: inherit !important;
+  }
+
+  .header-count {
+    display: none;
+  }
+
+  .navigation {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container-fluid {
+    width: 1340px !important;
+  }
+
+  nav,
+  nav .nav-wrapper i,
+  nav a.button-collapse,
+  nav a.button-collapse i {
+    height: 64px !important;
+    line-height: 64px !important;
+  }
+
+  .right .col.choices p.title {
+    display: inherit;
+  }
+
+  span.attendance-status i.material-icons,
+  .btn.edit {
+    left: 64px;
+  }
+
+  .row .col.lot-area {
+    margin-right: 15px;
+  }
+
+  .voteList .list {
+    height: 110px;
+    padding-bottom: 0;
+  }
+
+  span.on-mobile {
+    display: none;
+  }
+
+  /* page 2 */
+  .page2 .row .col.l10 {
+    width: 82.333333%;
+  }
+
+  .page2 .col.choices {
+    min-width: 12%;
+  }
+
+  .attendance-col .dropdown-content {
+    left: 16% !important;
+  }
+
+  /* on mobile */
+  /* .header-count,
+  .vote-result-count,
+  .navigation .btn.scrollRight,
+  .navigation .btn.scrollLeft {
+    display: initial;
+  } */
+
+  /* .header-count .choices {
+    margin: 0px;
+  } */
+
+  .on-wide-screen {
+    display: inherit !important;
+  }
+
+  .on-mobile-screen {
+    display: none !important;
+  }
+}
